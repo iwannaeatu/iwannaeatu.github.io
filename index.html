@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="msapplication-tap-highlight" content="no" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Center carousel" />
+    <meta name="author" content="David Deutsch" />
+    <title>我想吃掉你的___</title>
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="./assets/css/docs.theme.min.css" />
+    <!-- bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <!-- google icon -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <!-- Owl Stylesheets -->
+    <link
+      rel="stylesheet"
+      href="./assets/owlcarousel/assets/owl.carousel.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./assets/owlcarousel/assets/owl.theme.default.min.css"
+    />
+    <!-- 客製化css -->
+    <link href="./css/main.css" rel="stylesheet" />
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+    <!-- javascript -->
+    <script src="./assets/vendors/jquery.min.js"></script>
+    <script src="./assets/owlcarousel/owl.carousel.js"></script>
+  </head>
+  <body>
+      <!--navbar開始-->
+      <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container-fluid">
+          <a href="./index.html"><img class="logo" src="./img/nav_logo.png"></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="nav nav-underline">
+              <li class="nav-item dropdown">
+                <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">關於我們</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">品牌故事</a></li>
+                  <li><a class="dropdown-item" href="#">組織架構</a></li>
+                  <li><a class="dropdown-item" href="#">合作夥伴</a></li>
+                </ul>
+              </li>
+  
+              <li class="nav-item dropdown">
+                <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">立即嘗鮮</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">菜單</a></li>
+                  <li><a class="dropdown-item" href="#">線上訂購</a></li>
+                </ul>
+              </li>
+  
+              <li class="nav-item">
+                <a class="nav-link" href="#">常見問答</a>
+              </li>
+  
+              <li class="nav-item">
+                <a class="nav-link" href="#">聯絡我們</a>
+              </li>
+            </ul>
+             <!--google icon-->
+          <div>
+            <ul class="nav-right-icon">
+              <li class="icon-item">
+                <span class="material-symbols-outlined"> person </span>
+              </li>
+              <li class="icon-item">
+                <span class="material-symbols-outlined"> shopping_cart </span>
+              </li>
+            </ul>
+          </div>
+             <!--google icon-->
+        </div>
+      </div>
+      </nav>
+      <!--navbar結束-->
+      <!--首圖輪播開始-->
+      <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./img/banner_01.png" class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="./img/banner_02.png" class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="./img/banner_03.png" class="d-block w-100" alt="..." />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+       
+      </div>
+      <!--首圖輪播結束-->
+
+    <!--  Demos -->
+    <div class="new">
+        <p>新品上市 New</p>
+    <section id="demos">
+        <div class="col-12">
+          <div class="loop owl-carousel owl-theme">
+            <div class="item">
+            <div class="product_block liver"></div>
+              <h2>肝</h2>
+              <p>當我們的愛情像肝臟一樣，靜靜地為對方運作，濾除生活中的毒素。</p>
+            </div>
+            <div class="item">
+              <div class="product_block heart"></div>
+              <h2>心</h2>
+              <p>每一個心跳都是對你深深的愛戀的回應。願這顆心臟，陪伴著你我共度美好時光。</p>
+            </div>
+            <div class="item">
+              <div class="product_block brand"></div>
+              <h2>腦</h2>
+              <p>每一個念頭都是你的身影在我的心靈中縈繞。你是我的腦中風景，思緒如同腦細胞間的交流。</p>
+            </div>
+            <div class="item">
+              <div class="product_block kidney"></div>
+              <h2>肺</h2>
+              <p>每一次的呼吸都充滿了對你的深深思戀。你是我生命中的氧氣。</p>
+            </div>
+            <div class="item">
+              <div class="product_block stomach"></div>
+              <h2>胃</h2>
+              <p>這份愛情如同胃的養分一樣，營養我們的心靈，讓我們的愛情與時光一同成長茁壯。</p>
+            </div>
+            <div class="item">
+              <div class="product_block fat"></div>
+              <h2>脂肪瘤</h2>
+              <p>當愛情如同脂肪瘤一樣，靜靜存在於生命中，不影響彼此的和諧，反而成為一種微妙的陪伴。</p>
+            </div>
+          </div>
+    </div>
+
+          <script>
+            jQuery(document).ready(function ($) {
+              $(".loop").owlCarousel({
+                center: true,
+                items: 2,
+                loop: true,
+                margin: 20,
+                responsive: {
+                  600: {
+                    items: 5,
+                  },
+                },
+              });
+              $(".nonloop").owlCarousel({
+                center: true,
+                items: 2,
+                loop: false,
+                margin: 10,
+                responsive: {
+                  600: {
+                    items: 4,
+                  },
+                },
+              });
+            });
+          </script>
+        </div>
+      </div>
+    </section>
+     <!--預訂流程開始-->
+     <div class="container">
+      <div class="row">
+     <div class="process">
+        <p>預訂流程 Process</p>
+      <img src="./img/process.png">
+        </div>
+    <!--預訂流程結束-->
+    <!--廣告開始-->
+      <div class="ad">
+        <p>給您最安心的美味，甜進心裡無負擔</p>
+      <img src="./img/ad_banner01.png">
+      <img src="./img/ad_banner02.png">
+    </div>
+     <!--廣告結束-->
+     </div> 
+    </div>
+    <hr color="#6a1718" width="100%">
+      <!--footer開始-->
+      <div class="footer">
+    <div class="link-top"></div>
+      <div class="container">
+        <div class="row">
+
+
+        <div class="col-md-2">
+            <p class="footertitle">分店資訊</p>
+        </div>
+        <div class="col-md-3">
+        <p>
+            <svg id="dot_active" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 25 25">
+                <defs>
+                  <style>
+                    .cls-1 {
+                      fill: #6a1718;
+                      stroke-width: 0px;
+                    }
+                  </style>
+                </defs>
+                <path class="cls-1" d="m12.5,25.06h0C12.5,18.13,6.87,12.5-.06,12.5H-.06C6.87,12.5,12.5,6.87,12.5-.06h0c0,6.92,5.63,12.56,12.56,12.56h0c-6.92,0-12.56,5.63-12.56,12.56Z"/>
+              </svg>
+        台北肝癌總店<br>
+        地址：台北市中山區中和路111巷11號1樓<br>
+        電話：02-1111-1100<br>
+        營業時間 : 10:00-20:00
+        </p>
+    </div>
+        <div class="col-md-3">
+            <p>
+                <svg id="dot_active" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 25 25">
+                    <defs>
+                      <style>
+                        .cls-1 {
+                          fill: #6a1718;
+                          stroke-width: 0px;
+                        }
+                      </style>
+                    </defs>
+                    <path class="cls-1" d="m12.5,25.06h0C12.5,18.13,6.87,12.5-.06,12.5H-.06C6.87,12.5,12.5,6.87,12.5-.06h0c0,6.92,5.63,12.56,12.56,12.56h0c-6.92,0-12.56,5.63-12.56,12.56Z"/>
+                  </svg>
+                  高雄肺癌分店<br>
+                  地址：高雄市旗山區國泰路333巷33號1樓<br>
+                  電話：07-3333-3300<br>
+                  營業時間 : 10:00-20:00
+            </p>
+        </div>
+            <div class="col-md-3">
+                <p>
+                    <svg id="dot_active" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 25 25">
+                        <defs>
+                          <style>
+                            .cls-1 {
+                              fill: #6a1718;
+                              stroke-width: 0px;
+                            }
+                          </style>
+                        </defs>
+                        <path class="cls-1" d="m12.5,25.06h0C12.5,18.13,6.87,12.5-.06,12.5H-.06C6.87,12.5,12.5,6.87,12.5-.06h0c0,6.92,5.63,12.56,12.56,12.56h0c-6.92,0-12.56,5.63-12.56,12.56Z"/>
+                      </svg>
+                      台中癌細胞轉移分店<br>
+                      地址：台中市中山區中和路222巷22號1樓<br>
+                      電話：04-2222-2200<br>
+                      營業時間 : 10:00-20:00
+                     </p> </div> 
+                     
+                     <div class="col-md-3">         
+<ul class="footer_icon">
+    <li class="icon-item">
+<link href="#"><img src="./img/fb-02 1.png">
+</li>
+<li class="icon-item">
+<link href="#"><img src="./img/ig-02 1.png">
+</li>
+</ul>
+</div>
+        </div>
+      <!--footer結束-->
+    </div>
+</div>
+      <!-- bootstrap -->
+      <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"
+      ></script>
+
+    <!-- vendors -->
+    <script src="./assets/vendors/highlight.js"></script>
+    <script src="./assets/js/app.js"></script>
+  </body>
+</html>
