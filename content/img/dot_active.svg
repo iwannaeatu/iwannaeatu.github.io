@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="dot_active" xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #6a1718;
+        stroke-width: 0px;
+      }
+    </style>
+  </defs>
+  <path class="cls-1" d="m12.5,25.06h0C12.5,18.13,6.87,12.5-.06,12.5H-.06C6.87,12.5,12.5,6.87,12.5-.06h0c0,6.92,5.63,12.56,12.56,12.56h0c-6.92,0-12.56,5.63-12.56,12.56Z"/>
+</svg>
