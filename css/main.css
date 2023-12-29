@@ -130,9 +130,14 @@
   transition: opacity 0.6s ease;
 }
 
-.carousel-control-next-icon,
+.carousel-control-next-icon {
+  background-image: url(../img/next.png);
+  height: 3rem;
+}
+
 .carousel-control-prev-icon {
-  background-image: none;
+  background-image: url(../img/prev.png);
+  height: 3rem;
 }
 .carousel-control-next:focus,
 .carousel-control-next:hover,
@@ -147,7 +152,7 @@
 
 .new p {
   font-weight: bold;
-  font-size: 26px;
+  font-size: 38px;
   color: #6d1818;
   text-align: center;
   margin-top: 50px;
@@ -155,7 +160,7 @@
 }
 .process p {
   font-weight: bold;
-  font-size: 26px;
+  font-size: 38px;
   color: #6d1818;
   text-align: center;
   margin-top: 50px;
