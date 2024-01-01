@@ -162,7 +162,7 @@ img {
 }
 .main {
   /*整體往下移配合nav*/
-  margin-top: 180px;
+  margin-top: 130px;
 }
 /*字體變化*/
 .option-title {
@@ -180,7 +180,7 @@ img {
 .option {
   padding: 10px;
   /*整體往下移配合nav*/
-  margin-top: 200px;
+  margin-top: 130px;
 }
 .modal-body {
   display: inline-block;
