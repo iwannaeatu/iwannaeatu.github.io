@@ -5,13 +5,11 @@
 :root {
   --bs-link-color: #6d1818;
 }
-.nav-underline {
-  margin-left: 400px;
-}
+
 .container-fluid img {
   margin-left: 15px;
 }
-
+/*nav*/
 .nav-item dropdown {
   color: #6d1818;
 }
@@ -21,7 +19,9 @@
   margin-left: 60px;
   color: #6d1818;
 }
-
+.nav-underline {
+  margin-left: 310px;
+}
 .nav {
   --bs-nav-link-color: var(--bs-link-color);
   --bs-nav-link-hover-color: var(--bs-link-hover-color);
@@ -42,7 +42,7 @@
 }
 .nav-right-icon {
   margin-right: 50px;
-  padding-left: 700px;
+  padding-left: 680px;
 }
 
 .icon-item:hover {
@@ -69,32 +69,9 @@
   text-align: center;
   width: 140%;
 }
-
 .material-symbols-outlined {
   font-size: 30px;
   line-height: 1;
-}
-
-#demos .owl-carousel .item {
-  height: 530px;
-  background: #ffffff;
-  padding: 10px;
-}
-
-.item {
-  background-color: #ffffff;
-  border-radius: 25px 25px 25px 25px;
-  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.15);
-}
-
-.liver {
-  background-image: url(../img/liver.gif);
-}
-
-.row {
-  margin: 0 auto;
-  /* max-width: 100vw; */
-  width: 100vw;
 }
 
 .link-top {
@@ -102,10 +79,27 @@
   height: 2px;
   border-top: #6d1818 2px;
 }
-.footer {
-  width: 100vw;
-  padding-bottom: 10px;
-  background-color: #ffffff;
+/*nav*/
+
+/*首頁輪撥*/
+.carousel-control-next-icon {
+  background-image: url(../img/next.png);
+  height: 3rem;
+}
+
+.carousel-control-prev-icon {
+  background-image: url(../img/prev.png);
+  height: 3rem;
+}
+.carousel-control-next:focus,
+.carousel-control-next:hover,
+.carousel-control-prev:focus,
+.carousel-control-prev:hover {
+  color: #fff;
+  text-decoration: none;
+  outline: 0;
+  opacity: 0;
+  transition: none;
 }
 
 .carousel-control-next-icon {
@@ -129,75 +123,69 @@
   border-bottom: 10px solid transparent;
   transition: opacity 0.6s ease;
 }
-
-.carousel-control-next-icon {
-  background-image: url(../img/next.png);
-  height: 3rem;
+.carousel-indicators {
+  margin-right: 15%;
+  margin-bottom: 52rem;
+  margin-left: 15%;
+}
+.carousel-control-next,
+.carousel-control-prev {
+  bottom: 836px;
+  width: 2%;
 }
 
-.carousel-control-prev-icon {
-  background-image: url(../img/prev.png);
-  height: 3rem;
-}
-.carousel-control-next:focus,
-.carousel-control-next:hover,
-.carousel-control-prev:focus,
-.carousel-control-prev:hover {
-  color: #fff;
-  text-decoration: none;
-  outline: 0;
-  opacity: 0;
-  transition: none;
-}
+@import url("https://fonts.googleapis.com/css?family=Signika+Negative:300,400&display=swap");
 
+body {
+  font-family: "Signika Negative", sans-serif;
+  font-weight: 300;
+  margin: 0;
+  padding: 0 20px;
+}
+/*首頁輪撥*/
 .new p {
   font-weight: bold;
   font-size: 38px;
   color: #6d1818;
   text-align: center;
-  margin-top: 50px;
+  margin-top: 70px;
   margin-bottom: 50px;
 }
-.process p {
-  font-weight: bold;
-  font-size: 38px;
-  color: #6d1818;
-  text-align: center;
-  margin-top: 50px;
-  margin-bottom: 50px;
-}
-.process img {
-  -ms-ime-align: center;
-}
-.ad p {
-  font-weight: bold;
-  font-size: 38px;
-  color: #6d1818;
-  text-align: center;
-  margin-top: 50px;
-  margin-bottom: 50px;
-}
-.ad img {
-  scale: 90%;
-}
-.footer_icon {
-  display: inline-block;
-  width: 110px;
-  margin-left: calc(912px - 110px);
-}
-.footer_icon li {
-  width: 25px;
+
+/*footer*/
+
+.footer {
+  width: 100vw;
+  padding-bottom: 10px;
+  background-color: #ffffff;
 }
 
 .footer p {
   color: #6d1818;
-  font-size: 12px;
+  font-size: 16px;
   margin-top: -45px;
+  text-align: center;
 }
 
-.footer .footertitle {
-  font-weight: bold;
-  font-size: 15px;
+/*footer*/
+
+/*owl carousel*/
+#demos .owl-carousel .item {
+  height: 530px;
+  background: #ffffff;
+  padding: 10px;
+}
+
+.item {
+  background-color: #ffffff;
+  border-radius: 25px 25px 25px 25px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.15);
+}
+
+.row {
+  margin: 0 auto;
+  /* max-width: 100vw; */
+  width: 100vw;
 }
 
 /*新品上市的圖片開始*/
@@ -257,7 +245,7 @@
 .item h2 {
   font-weight: bold;
   color: #6d1818;
-  margin-top: 40px;
+  margin-top: 60px;
   margin-left: 55px;
   margin-right: 55px;
   font-size: 36px;
@@ -304,44 +292,107 @@
 .carousel {
   margin-top: 70px;
 }
+/*owl carousel*/
 
-@media (min-width: 1200px) {
-  .contain {
-    max-width: 1720px;
-  }
+/*預定流程*/
+.process p {
+  font-weight: bold;
+  font-size: 38px;
+  color: #6d1818;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
-@media only screen and (max-width: 768px) {
-  .footer_icon {
-    display: inline-block;
-    width: 110px;
-    margin-left: calc(100vw - 110px);
-  }
-  .logo {
-    width: 250px;
-  }
-  #navbarNavDropdown {
-    display: block;
-  }
-  .button:hover,
-  button:focus,
-  .button:hover,
-  .button:focus {
-    background-color: #ffffff;
-  }
-  .nav-underline .nav-link {
-    padding-right: 11px;
-  }
-  .nav-right-icon {
-    margin-right: 52px;
-    padding-left: 145px;
-  }
-  .footer p {
-    color: #6d1818;
-    font-size: 12px;
-    margin-top: -8px;
-  }
-  .ad p {
-    font-weight: bold;
-    font-size: 20px;
-  }
+.process2 img:hover {
+  width: 105%;
+  opacity: 60%;
 }
+
+.shopping_cart p {
+  font-weight: bold;
+  color: #6d1818;
+  margin-top: 40px;
+  margin-left: 55px;
+  margin-right: 55px;
+  font-size: 36px;
+}
+.login p {
+  font-weight: bold;
+  color: #6d1818;
+  margin-top: 40px;
+  margin-left: 55px;
+  margin-right: 55px;
+  font-size: 36px;
+}
+.pay p {
+  font-weight: bold;
+  color: #6d1818;
+  margin-top: 40px;
+  margin-left: 55px;
+  margin-right: 55px;
+  font-size: 36px;
+}
+.check p {
+  font-weight: bold;
+  color: #6d1818;
+  margin-top: 40px;
+  margin-left: 55px;
+  margin-right: 55px;
+  font-size: 36px;
+}
+.transport p {
+  font-weight: bold;
+  color: #6d1818;
+  margin-top: 40px;
+  margin-left: 55px;
+  margin-right: 55px;
+  font-size: 36px;
+}
+.process2 li {
+  display: inline-block;
+  text-align: center;
+  padding: 60px;
+}
+.process2 {
+  text-align: center;
+}
+
+/*預定流程*/
+/*立即訂購按鈕*/
+.btn-outline-primary {
+  --bs-btn-color: #6d1818;
+  --bs-btn-border-color: #6d1818;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #6d1818;
+  --bs-btn-hover-border-color: #6d1818;
+  --bs-btn-focus-shadow-rgb: 13, 110, 253;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #6d1818;
+  --bs-btn-active-border-color: #6d1818;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #6d1818;
+  --bs-btn-disabled-bg: transparent;
+  --bs-btn-disabled-border-color: #6d1818;
+  --bs-gradient: none;
+}
+.btn:focus-visible {
+  box-shadow: 0;
+}
+button:hover,
+button:focus,
+.button:hover,
+.button:focus {
+  background-color: #6d1818;
+}
+.btn {
+  --bs-btn-padding-x: 2.75rem;
+  --bs-btn-padding-y: 1.375rem;
+  --bs-btn-font-size: 1.5rem;
+  --bs-btn-font-weight: 500;
+  --bs-btn-line-height: 1.5;
+  margin-left: 1045px;
+  margin-top: 80px;
+  margin-bottom: 100px;
+}
+
+/*立即訂購按鈕*/
