@@ -287,6 +287,7 @@
   justify-content: space-between;
   align-items: center;
 }
+
 .bs-sub-title svg {
   width: 43px;
   height: 44px;
@@ -296,7 +297,6 @@
   position: absolute;
   top: 50%;
   right: 2%;
-  content: "";
   width: 70%;
   height: 2px;
   background-color: #6d1818;
