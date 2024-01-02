@@ -20,7 +20,7 @@
   color: #6d1818;
 }
 .nav-underline {
-  margin-left: 310px;
+  margin-left: 230px;
 }
 .nav {
   --bs-nav-link-color: var(--bs-link-color);
@@ -42,7 +42,7 @@
 }
 .nav-right-icon {
   margin-right: 50px;
-  padding-left: 680px;
+  padding-left: 500px;
 }
 
 .icon-item:hover {
