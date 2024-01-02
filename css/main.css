@@ -305,6 +305,8 @@ body {
 }
 .process2 img:hover {
   opacity: 60%;
+  transition: all 0.3s ease-in;
+  transition: all 0.3s ease-out;
 }
 .shopping_cart p {
   font-weight: bold;
