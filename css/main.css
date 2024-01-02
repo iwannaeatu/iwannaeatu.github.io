@@ -304,10 +304,8 @@ body {
   margin-bottom: 50px;
 }
 .process2 img:hover {
-  width: 105%;
   opacity: 60%;
 }
-
 .shopping_cart p {
   font-weight: bold;
   color: #6d1818;
